@@ -1,0 +1,1 @@
+/**/ typeof atatus._setFeatures === 'function' && atatus._setFeatures({"daj":true,"dss":true,"dspa":true,"drum":true,"derror":true,"dtxn":true,"error":"Browser Trial period has been ended!"});

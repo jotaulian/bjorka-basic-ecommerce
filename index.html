@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles css -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Scandinavian Decor & Custom Furniture</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <!-- links -->
+        <div>
+          <button class="toggle-nav">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav-links">
+            <li>
+              <a href="index.html" class="nav-link">Inicio</a>
+            </li>
+            <li>
+              <a href="products.html" class="nav-link">Productos</a>
+            </li>
+            <li>
+              <a href="about.html" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <!-- logo -->
+        <div class="nav-logo">
+          <h1 class="logo-nav">Björka</h1>
+        </div>
+        <!-- cart icon -->
+        <div class="toggle-container">
+          <button class="toggle-cart">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+          <span class="cart-item-count">1</span>
+        </div>
+      </div>
+    </nav>
+    <!-- hero -->
+    <section class="hero">
+      <div class="hero-container">
+        <h1 class="text-slanted">Simple, Elegante, Funcional.</h1>
+        <h3 class="texto-hero">Muebles con estilo escandinavo.</h3>
+        <a href="products.html" class="hero-btn">comprar</a>
+      </div>
+    </section>
+    <!-- sidebar -->
+    <div class="sidebar-overlay">
+      <aside class="sidebar">
+        <!-- close -->
+        <button class="sidebar-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- link -->
+        <h1 class="logo-sidebar">Björka</h1>
+        <p class="sidebar-logo-text">Scandinavian Decor</p>
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html" class="sidebar-link">
+              <i class="fas fa-home fa-fw"></i>
+              Inicio</a
+            >
+          </li>
+          <li>
+            <a href="products.html" class="sidebar-link">
+              <i class="fas fa-couch fa-fw"></i>
+              Productos</a
+            >
+          </li>
+          <li>
+            <a href="about.html" class="sidebar-link">
+              <i class="fas fa-book fa-fw"></i>
+              Contacto</a
+            >
+          </li>
+        </ul>
+      </aside>
+    </div>
+
+    <!-- cart -->
+    <div class="cart-overlay">
+      <aside class="cart">
+        <button class="cart-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <header>
+          <h2 class="text-slanted">tu carrito</h2>
+        </header>
+        <!-- cart items -->
+        <div class="cart-items">
+          <!--  -->
+        </div>
+        <!-- footer -->
+        <footer>
+          <h2 class="cart-total text-slanted">Total : $12.99</h2>
+          <button class="cart-checkout btn">Terminar compra</button>
+        </footer>
+      </aside>
+    </div>
+    <!-- featured products -->
+    <section class="section featured">
+      <div class="title">
+        <h2><span>/</span>Lo más vendido</h2>
+      </div>
+      <div class="featured-center section-center">
+        <h2 class="section-loading">Loading...</h2>
+        <!-- single product -->
+        <!-- <article class="product">
+          <div class="product-container">
+            <img
+              src="./images/classic-wood-floor-lamp.jpg"
+              alt="lamp"
+              class="product-img img"
+            />
+            <div class="product-icons">
+              <a href="./product.html" class="product-icon">
+                <i class="fas fa-search"></i>
+              </a>
+              <button class="product-cart-btn product-icon" data-id="1">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+          <footer>
+            <p class="product-name">Lampara de Pie</p>
+            <h4 class="product-price">$500</h4>
+          </footer>
+        </article> -->
+        <!-- end of single product -->
+      </div>
+      <a href="./products.html" class="btn">ver todos</a>
+    </section>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
